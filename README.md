@@ -33,10 +33,11 @@
 ```
 git clone https://github.com/fols43/cmr-bot.git
 cd cmr-bot
-Создайте виртуальное окружение и активируйте его:
 ```
-Копировать код
+#Создайте виртуальное окружение и активируйте его:
+```
 python -m venv venv
+```
 # Windows
 ```
 venv\Scripts\activate
