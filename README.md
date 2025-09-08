@@ -30,23 +30,29 @@
 
 1. Клонируйте репозиторий:
 
-```bash
+```
 git clone https://github.com/fols43/cmr-bot.git
 cd cmr-bot
 Создайте виртуальное окружение и активируйте его:
-
+```
 bash
 Копировать код
 python -m venv venv
 # Windows
+```
 venv\Scripts\activate
+```
 # Linux/macOS
+```
 source venv/bin/activate
+```
 Установите зависимости:
 
 bash
 Копировать код
+```
 pip install -r requirements.txt
+```
 Создайте файл config.json с токеном вашего бота:
 
 json
