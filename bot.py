@@ -13,7 +13,7 @@ with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 BOT_TOKEN = config["BOT_TOKEN"]
 
-GROUP_ID = -1002653254890  # ID группы с гробовозками
+GROUP_ID = config["GROUP_ID"]  # ID группы с гробовозками, нужно поменять в конфиге чтоб все работало епта.
 
 ASK_LASTNAME, ASK_FIRSTNAME, ASK_PHONE, SHOW_CARS, COLLECT_DOCS = range(5)
 
